@@ -1,0 +1,26 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+
+# Model files
+*.gguf
+*.safetensors
+*.onnx
+
+# Local uploads and generated data
+storage/documents/
+# Local pgvector source checkout
+/pgvector/
