@@ -28,6 +28,6 @@ jobs:
           python -m pip install -r requirements-kafka.txt
           python -m pip install -r requirements-ml.txt
           python -m pip install -r requirements-dev.txt
-        
+
       - name: Run tests
         run: python -m pytest -v
